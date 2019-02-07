@@ -1,4 +1,4 @@
-# ChildrenBookClub-React is a personal wewbsite, that I am making with React and Mongo.
+# ChildrenBookClub-React is a personal website, that I am making with React and Mongo.
 ## Available Scripts
 
 In the project directory bookclub, you can run:
