@@ -5,11 +5,8 @@ import "./NavBar.css";
 
 const links = [
   { path: "/", name: "Home" },
-  { path: "/books", name: "Books Review" },
+  { path: "/books", name: "Books" },
   { path: "/blog", name: "Blog" },
-  { path: "/login/becomeupclubmember", name:"Login"},
-  { path: "/login/newmember", name:"Register"},
-
 ];
 
 class NavBar extends Component {

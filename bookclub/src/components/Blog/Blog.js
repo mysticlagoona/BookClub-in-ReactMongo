@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from "@reach/router";
 import NavBar from '../navigation/NavBar';
 
 
@@ -8,8 +9,13 @@ class Blog extends Component {
     render() {
       return (
         <div>
-            <NavBar />
-            <h2>Welcome</h2>
+            <section>
+                <h1>Kids.BookClub</h1>
+                <p><Link to="/login/account">Login</Link>|<Link to="/login/newaccount">Register</Link></p>
+            </section>
+            <section>
+                <NavBar />
+            </section>
         </div>
       );
     }

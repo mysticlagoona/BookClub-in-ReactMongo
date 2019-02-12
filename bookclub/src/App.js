@@ -16,8 +16,8 @@ class App extends Component {
           <Home path="/" />
           <Books path="books" />
           <Blog path="blog" />
-          <Login path="login/becomeupclubmember" />
-          <Register path="login/newmember" />
+          <Login path="login/account" />
+          <Register path="login/newaccount" />
         </Router>
       </div>
     );
